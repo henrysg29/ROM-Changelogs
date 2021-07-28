@@ -1,0 +1,35 @@
+|==========COLT-OS CHANGELOG=========|
+
+Build Date : 28/7/2021
+
+• Initial Build By. TheSedBoi
+• July Security Patch
+• Redfin July Fingerprint Props
+• Added Realme Parts
+• Shipped With YNTKTS 4.14.240
+
+BUGS:
+• Dunno ( MEANS NOT TESTED ANYTHING, JUST BOOT TEST ALSO GAME TEST)
+• You tell more
+
+NOTES :
+• If got error 11 in TWRP just leave it, the ROM still normal 
+• If RealmeSettings FC, Remove Audio Mod Module
+• SAFETYNET ALL 'RED', I EXPECT YOU KNOW WHAT TO DO WITH THIS
+
+HOW TO INSTALL :
+• Install RUI FW ( C69 / C67 Recommended ), If Already Done Skip This
+• Install ROM
+• Install Magisk ( 23.0 Recommended )
+• Install GAPPS ( You Can Skip This Later After Boot )
+• Boot To System
+|================================|
+
+••••If Got OBB Issue In TAPTAP App or Other App••••
+•Go To System/bin
+•Remove "migrate_legacy_obb.sh" (something like that)
+
+••••FOR "NORMALIZE" SPEED TRANSFER••••
+•Copy Below Text To Your Termux / Terminal Emulator :
+su -c setprop persist.sys.fflag.override.settings_fuse false
+•Then Reboot
