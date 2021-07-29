@@ -1,0 +1,35 @@
+|==========PROJECT LIGHTHOUSE:RAFT CHANGELOG=========|
+
+Build Date : 29/7/2021
+
+• July Security Patch
+• Redfin July Fingerprint Props
+• Added Realme Parts
+• Shipped With YNTKTS 4.14.241
+
+BUGS:
+• "Colors" menu not displaying anything
+• NFC Features Nuked ( Dunno if it still support Realme 5 EU / Russia version or not )
+• Dunno with EGIS FP in RMX2030
+• You tell more
+
+NOTES :
+• If got error 11 in TWRP just leave it, the ROM still normal ( Should be fine now, i tested it in PBRP )
+• If RealmeSettings FC, Remove Audio Mod Module
+
+HOW TO INSTALL :
+• Install RUI FW ( C69 / C67 Recommended ), If Already Done Skip This
+• Install ROM
+• Install Magisk ( 23.0 Recommended )
+• Install GAPPS ( You Can Skip This Later After Boot )
+• Boot To System
+|================================|
+
+••••If Got OBB Issue In TAPTAP App or Other App••••
+•Go To System/bin
+•Remove "migrate_legacy_obb.sh" (something like that)
+
+••••For 'Normalize' Transfer Speed••••
+•Copy Below Text To Your Termux / Terminal Emulator ( ONE LINE !!! ) :
+su -c setprop persist.sys.fflag.override.settings_fuse false ( IF DIDNT WORK, TYPE 'su' FIRST !! )
+•Then Reboot 
