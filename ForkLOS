@@ -1,0 +1,33 @@
+|==========Fork LOS CHANGELOG=========|
+
+Build Date : 6/8/2021
+
+• August Security Patch
+• Shipped With YNTKTS 4.14.242 ( OC-ed to 75Hz display, Work on ILITEK only )
+• Initial Build By.TheSedBoi
+
+BUGS:
+• You tell more
+
+NOTES :
+• If got error 11 in TWRP just leave it, the ROM still normal
+• Non-FBE ROM
+• If can't access link, use VPN
+• The name of file is still 'lineage' not 'fork lineage'. but it different
+
+HOW TO INSTALL :
+• Install RUI FW ( C69 / C67 Recommended ), If Already Done Skip This
+• Install ROM
+• Install Magisk ( 23.0 Recommended )
+• Install GAPPS ( You Can Skip This Later After Boot )
+• Boot To System
+|================================|
+
+••••If Got OBB Issue In TAPTAP App or Other App••••
+•Go To System/bin
+•Remove "migrate_legacy_obb.sh" (something like that)
+
+••••For 'Normalize' Transfer Speed••••
+•Copy Below Text To Your Termux / Terminal Emulator ( ONE LINE !!! ) :
+su -c setprop persist.sys.fflag.override.settings_fuse false ( IF DIDNT WORK, TYPE 'su' FIRST !! )
+•Then Reboot 
