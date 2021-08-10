@@ -1,0 +1,23 @@
+|==========LineageOS 17.1 CHANGELOG=========|
+
+Build Date : 11/8/2021
+
+• August Security Patch
+• Shipped With YNTKTS 4.14.243++ (Latest Source)
+• NOT UNIFIED VERSION ( 1911 AND 2030 WILL BE SEPARATE LINK )
+• Added Realmeparts ( For Both )
+
+BUGS:
+• DUNNO SO FAR SO GOOD
+
+NOTES :
+• Non-FBE ROM
+• If can't access link, use VPN
+
+HOW TO INSTALL :
+• Install RUI FW ( C69 / C67 Recommended ), If Already Done Skip This
+• Install ROM
+• Install Magisk ( 23.0 Recommended )
+• Install GAPPS ( You Can Skip This Later After Boot )
+• Boot To System
+|================================|
